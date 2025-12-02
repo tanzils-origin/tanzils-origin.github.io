@@ -89,13 +89,12 @@ export function Portfolio() {
 
   return (
     <div className="h-screen box-border bg-neutral-100 flex flex-col items-center justify-center px-8 md:px-20 py-[60px] font-sans text-[#2d2d2d] overflow-hidden">
-      
+
       {/* Yellow Box Profile/Graphic Placeholder */}
-      <div 
+      <div
         onClick={() => setIsActive(!isActive)}
-        className={`w-[180px] flex-1 mb-8 min-h-[100px] cursor-pointer transition-colors duration-300 ${
-          isActive ? 'bg-[#2D2D2D]' : 'bg-[#ffc23b]'
-        }`}
+        className={`w-[180px] flex-1 mb-8 min-h-[100px] cursor-pointer transition-colors duration-300 ${isActive ? 'bg-[#ffc23b]' : 'bg-[#2D2D2D]'
+          }`}
       />
 
       {/* Main Text Content */}
@@ -103,7 +102,7 @@ export function Portfolio() {
         <h1 className="font-['Noto_Serif',serif] font-medium text-[40px] leading-normal whitespace-pre-wrap">
           Hey, I’m Tanzil.
         </h1>
-        
+
         <p className="font-['JetBrains_Mono',monospace] text-[16px] leading-normal whitespace-pre-wrap">
           I build products with code.
           <br />
@@ -116,7 +115,7 @@ export function Portfolio() {
         <p className="font-['JetBrains_Mono',monospace] text-[#969696] text-[14px] mb-2">
           My important links
         </p>
-        
+
         <div className="flex items-center gap-8">
           <GithubIcon />
           <LinkedInIcon />
