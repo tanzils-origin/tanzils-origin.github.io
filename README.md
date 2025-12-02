@@ -1,7 +1,7 @@
 
-  # One Pager Website
+  # Portfolio
 
-  This is a code bundle for One Pager Website. The original project is available at https://www.figma.com/design/jTqiBFkEZ7oLRp4Di0M62S/One-Pager-Website.
+  This is a code bundle for Portfolio Website. The original project is available at https://www.figma.com/design/jTqiBFkEZ7oLRp4Di0M62S/One-Pager-Website.
 
   ## Running the code
 

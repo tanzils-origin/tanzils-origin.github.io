@@ -11,7 +11,12 @@ const GithubIcon = () => (
   <TooltipProvider>
     <Tooltip>
       <TooltipTrigger asChild>
-        <div className="overflow-clip relative shrink-0 size-[24px] hover:opacity-70 hover:-translate-y-1 transition-all cursor-pointer duration-300">
+        <a
+          href="https://github.com/tanzils-origin"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="overflow-clip relative shrink-0 size-[24px] hover:opacity-70 hover:-translate-y-1 transition-all cursor-pointer duration-300"
+        >
           <div className="absolute contents inset-0">
             <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 24 24">
               <g id="icons">
@@ -19,7 +24,7 @@ const GithubIcon = () => (
               </g>
             </svg>
           </div>
-        </div>
+        </a>
       </TooltipTrigger>
       <TooltipContent>
         <p>Github</p>
@@ -32,7 +37,12 @@ const LinkedInIcon = () => (
   <TooltipProvider>
     <Tooltip>
       <TooltipTrigger asChild>
-        <div className="relative shrink-0 size-[24px] hover:opacity-70 hover:-translate-y-1 transition-all cursor-pointer duration-300">
+        <a
+          href="https://www.linkedin.com/in/tanzil-khan-084552282/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="relative shrink-0 size-[24px] hover:opacity-70 hover:-translate-y-1 transition-all cursor-pointer duration-300"
+        >
           <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 24 24">
             <g clipPath="url(#clip0_3_87)">
               <path d={svgPaths.linkedin} fill="#2D2D2D" />
@@ -43,7 +53,7 @@ const LinkedInIcon = () => (
               </clipPath>
             </defs>
           </svg>
-        </div>
+        </a>
       </TooltipTrigger>
       <TooltipContent>
         <p>LinkedIn</p>
@@ -56,11 +66,14 @@ const EmailIcon = () => (
   <TooltipProvider>
     <Tooltip>
       <TooltipTrigger asChild>
-        <div className="h-[22.8px] relative shrink-0 w-[27.36px] hover:opacity-70 hover:-translate-y-1 transition-all cursor-pointer duration-300">
+        <a
+          href="mailto:khantanzil307@gmail.com"
+          className="h-[22.8px] relative shrink-0 w-[27.36px] hover:opacity-70 hover:-translate-y-1 transition-all cursor-pointer duration-300"
+        >
           <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 28 23">
             <path d={svgPaths.email} fill="#2D2D2D" />
           </svg>
-        </div>
+        </a>
       </TooltipTrigger>
       <TooltipContent>
         <p>Email</p>
@@ -70,7 +83,12 @@ const EmailIcon = () => (
 );
 
 const ResumeButton = () => (
-  <button className="bg-[#2d2d2d] hover:bg-neutral-700 hover:-translate-y-1 transition-all duration-300 box-border content-stretch flex gap-[8px] items-center overflow-clip px-[16px] py-[8px] relative rounded-[40px] shrink-0 group">
+  <a
+    href="/TanzilKhanCV.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-[#2d2d2d] hover:bg-neutral-700 hover:-translate-y-1 transition-all duration-300 box-border content-stretch flex gap-[8px] items-center overflow-clip px-[16px] py-[8px] relative rounded-[40px] shrink-0 group no-underline"
+  >
     <span className="font-['JetBrains_Mono',monospace] font-bold leading-[normal] relative shrink-0 text-[14px] text-center text-nowrap text-white whitespace-pre">
       Resume
     </span>
@@ -81,7 +99,7 @@ const ResumeButton = () => (
         </svg>
       </div>
     </div>
-  </button>
+  </a>
 );
 
 export function Portfolio() {
