@@ -84,7 +84,7 @@ const EmailIcon = () => (
 
 const ResumeButton = () => (
   <a
-    href="/TanzilKhanCV.pdf"
+    href="/TanzilKhanResume.pdf"
     target="_blank"
     rel="noopener noreferrer"
     className="bg-[#2d2d2d] hover:bg-neutral-700 hover:-translate-y-1 transition-all duration-300 box-border content-stretch flex gap-[8px] items-center overflow-clip px-[16px] py-[8px] relative rounded-[40px] shrink-0 group no-underline"
